@@ -15,9 +15,7 @@ body{background-color: rgb(36, 34, 35);
     color: ghostwhite;
 }
 
-#my-image{box-shadow: black;
-}
-
+#my-image{box-shadow: black 0px 0px 2px 1px;
 
 
 }

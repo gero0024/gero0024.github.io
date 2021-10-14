@@ -26,4 +26,10 @@ li{list-style: square;}
 li:nth-child(odd){ background-color: rgba(169, 169, 169, 0.377);
 }
 
+a{text-decoration: none;}
 
+a{  color: black;
+    
+    border-style: solid;}
+
+a:hover{background-color: rgb(225, 230, 238);}

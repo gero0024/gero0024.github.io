@@ -1,7 +1,7 @@
 header, footer{background-color: rgba(255, 4, 46, 0.884);}
 
-.site-title{color: rgb(168, 249, 255);
-            font-size: 20mm;
+.site-title{color: rgb(1, 141, 255);
+            font-size: 12.5mm;
 }
 
 
@@ -33,3 +33,5 @@ a{  color: black;
     border-style: solid;}
 
 a:hover{background-color: rgb(225, 230, 238);}
+
+footer{color: black;}

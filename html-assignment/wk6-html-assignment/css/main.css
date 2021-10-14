@@ -1,1 +1,5 @@
-body{background-color: darkblue;}
+body{background-color: darkblue;
+}
+
+/* targeting specifc classes using a period*/
+.sizing{border: 5px purple solid;}

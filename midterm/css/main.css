@@ -58,8 +58,10 @@ table {
 body{ background-color: rgb(63, 62, 54);
 }
 
-#leaves{width: 1024px;
-        height: 341px;
+
+#leaves{
+	width: 1024px;
+	height: 341px;
 }
 
 #hilt{

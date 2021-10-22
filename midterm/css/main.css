@@ -55,12 +55,14 @@ table {
 ==========================================================================================================*/
 
 
-
-body{ background-color: rgb(97, 52, 0);
-
+body{ background-color: rgb(63, 62, 54);
 }
 
 #leaves{width: 1024px;
         height: 341px;
+}
 
+#hilt{
+	width: 600px;
+	height: 616px;
 }

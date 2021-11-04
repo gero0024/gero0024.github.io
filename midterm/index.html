@@ -12,120 +12,147 @@
   </head>
   <body>
 
-  <container div>
 
-   <div class="top">
+   <!--A container div is dividing the code. It also has properties preset as opposed to a regular div tag--> 
+   <container div>
+
+    <!--Here I am dividing the top portion of my websiter using "div tags", This makes it easier to target specific elements later-->
+     <div class="top">
+
       <!--This is the header; basically the top of the website--> 
-      <header>
-
-        <div class="banner">
-           <h1>Lone Samurai</h1>
-
-           <img id="leaves" src="images/falling-leaves.gif" alt="falling-leaves">   
-        </div> 
+       <header>
       
-        <ul>
-          <li>HOME</li>
-          <li>STORY</li>
-          <li>TRAINING</li>
-        </ul>
-      </header>
-    </div>
+         <div class="banner">
+           <!--h1 tag is a heading tag. They go from h1 to 16 with h1 being the biggest and h6 being the smallest-->
+            <h1 class="lonesam">Lone Samurai</h1>
 
-    <div class="mid">
-      <h2>Life of a Samurai</h2>
-
-      <p>夜の帳が下り
-        その時が来た
-        武士は振り返らない
-        戦で鍛えし我身に言おう
-        祖国を救うため我ここにあり
-        割れししてやれ
-        我らの大地取り戻せ
-        蘇りし者よ
-        蘇りし者
-        己が身はあなたのためにある
-        我身真実となるは
-        いつの日ぞ
-        我身真実となるは
-        いつの日ぞ  </p>
+           <!--I am using image source to tell the code to display the "falling leaves photo" that is in the "images" file in file structure-->
+           <!--I also gave this image the id of "leaves". This makes it easier to link to the image. Ids should only be used once and take priority of classes-->
+              <img id="leaves" src="images/falling-leaves.gif" alt="falling-leaves">
+      
+         </div> 
 
 
-      <img id="hilt" src="images/sword-hilt.jpg" alt="sword-hilt">
+       <div class="menu">
+         <!--This is an unordered list, used when you need to list items but order in unimportant. the things in the li tags are the items being listed-->
+             <ul>
+               <li id="home">HOME</li>
+               <li id="story">STORY</li>
+               <li id="training">TRAINING</li>
+            </ul>
+          </header>
+       </div>
+    
+      </div>
 
+
+     <div id="nobanner">
+       <!--Class is another way to classify items like Id, but class can be use more than once, although it won't take priority over an ID-->
+          <div class="mid">
+             <h2 class="life">Life of a Samurai</h2>
+
+      
+         <img id="hilt" src="images/sword-hilt.jpg" alt="sword-hilt">
+
+        <!--The paragraph tag is the most basic way to write paragraphs in HTML. Breaking the sentence will not affect its styling on the website--> 
+         <p id="imagetext">
+           A ga maheba, kuwashime yoinikeri A ga maheba, terutsuki toyomunari Yobai ni, kami amakudarite Yo wa ake, nuedori naku Hitohi hitoyo ni tsuki wa terazu tomo Kanashimi ni nuedori
+           Waga kaheri misuredo Hana wa chirinubeshi Nagusamuru kokoro wa Kenuru ga gotoku Aratayo ni  kamu tsudoite Yo wa ake Nuedori  naku Saku hana wa Kami ni kohinomu Ikeru yo ni Agami
+           kanashimo Ime wa  kenu Ura mite chiru A ga maheba, kuwashime yoinikeri A ga maheba, terutsuki toyomunari Yobai ni, kami amakudarite Yo wa ake, nuedori naku Hitohi hitoyo ni  tsuki 
+           wa terazu tomo Kanashimi ni nuedori  naku Waga kaheri misuredo Hana wa chirinubeshi Nagusamuru kokoro wa Kenuru ga gotoku Aratayo ni  kamu tsudoite Yo wa ake Nuedori  naku Saku hana 
+           wa Kami ni kohinomu Ikeru yo ni Agami kanashimo Ime wa  kenu Ura mite chiru A ga maheba, kuwashime yoinikeri A ga maheba, terutsuki toyomunari Yobai ni, kami amakudarite Yo wa ake,
+           nuedori naku Hitohi hitoyo ni  tsuki wa terazu tomo Kanashimi ni nuedori  naku Waga kaheri misuredo Hana wa chirinubeshi Nagusamuru kokoro wa Kenuru ga gotoku Aratayo ni  kamu tsudoite 
+           Yo wa ake Nuedori  naku Saku hana wa Kami ni kohinomu Ikeru yo ni Agami kanashimo Ime wa  kenu Ura mite chiru A ga maheba, kuwashime yoinikeri A ga maheba, terutsuki toyomunari Yobai ni, 
+           kami amakudarite Yo wa ake, nuedori naku Hitohi hitoyo ni  tsuki wa terazu tomo Kanashimi ni nuedori  naku Waga kaheri misuredo Hana wa chirinubeshi Nagusamuru kokoro wa Kenuru ga gotoku 
+           Aratayo ni  kamu tsudoite Yo wa ake Nuedori  naku Saku hana wa Kami ni kohinomu Ikeru yo ni Agami kanashimo Ime wa  kenu Ura mite chiru 
+           A ga maheba, kuwashime yoinikeri A ga maheba, terutsuki toyomunari Yobai ni, kami amakudarite Yo wa ake, nuedori naku Hitohi hitoyo ni tsuki wa terazu tomo Kanashimi ni nuedori  
+           naku Waga kaheri misuredo Hana wa chirinubeshi A ga maheba, terutsuki toyomunari Yobai ni, kami amakudarite Yo wa ake, nuedori naku 
+         </p>
+ 
+         <!--This is a descriptive list, used when you need to list items, but also give a describe them in detail-->
+          <dl class="facts">
+           <dt class="subtitles">Facts about the Samurai</dt>
+           <li>Yaiba, Ikita shikabane mitai datta oretachi wa, kabe no soto e.</li>
+           <li>Hakumen, Ware wa Kuu, Ware wa Kou, Ware wa Jin, Ware wa hitofuri.</li>
+           <li>Susanoo, Aku wo metsu. Wagana wa Hakumen Oshite mairu! </li>
+           <li> Yaiba, Ikita shikabane mitai datta oretachi wa, kabe no soto e </li>
+           </dl>
+         </div>
+      
+        <!--This is a h2 tag. Same concept as the h1 tag but not as big-->
+         <h2 class="subtitles">JOIN US</h2>
+
+       <div class="bottom">
+
+         <div id="boxes">
+
+
+        <!--The Form tag lets us being interactive features in the website. Here Below I am putting a name box-->
+        <!--Action will tell us where this info is going to sent. Method tells us how the info is being sent by either using Get or Post -->
+        <!--Get is used the the info being sent not sensitive. Post is used when the info being sent is sensitive-->  
+        <!--The label tag connects to the input tagto the user what info they need to put in-->
+        <!--The input tag is the method of which in the info will be placed. In the case, it is a namebox, so you have to type you name-->
+           <form id="name" action="index.html" method="get">
+             <label id="name" for="name">Your Name</label>
+             <input id="Name">
+
+           </form>
+
+
+           <form id="email" action="index.html" method="get">
+             <label id="email" for="email">Your Email</label>
+             <input id="Email" name="Your Email">
   
-      <dl>
-        <dt>Facts about the Samurai</dt>
-        <li>placeholder</li>
-        <li>placeholder</li>
-        <li>placeholder</li>
-      </dl>
-   </div>
-
-   <div class="bottom">
-
-    <h2>JOIN US</h2>
-
-      <form action="index.html" method="get">
-        <label for="name">Your Name</label>
-        <input id="Name">
-
-      </form>
+           </form>
 
 
+           <form id="pledge" action="index.html" method="get">
+             <label id="pledgetitle" for="pledge">Your Pledge</label>
+             <textarea id="pledge"></textarea>
 
-      <form action="index.html" method="get">
-        <label for="email">Your Email</label>
-        <input id="Email">
-      
-      </form>
+           </form>
+         </div>
+            
+         
+        <!--Another heading tag. This one is h2 so it is not as big as the main header-->
+            <h2 class="wish">Do you wish to become Samurai?</h2>
 
+         <div id="checklist"> 
+          
 
-      <form action="index.html" method="get">
-        <label for="pledge">Your Pledge</label>
-        <textarea id="pledge"></textarea>
+         <!--Here we are using the same Form tags to request info from the user, this time is using radio buttons-->
+         <!--Radio buttons cannot select multiple items at a time. For this to work every label needs to be in the same form tag--> 
+           <form id="yes" action="index.html" method="post">
+             <label for="yes">Yes</label>
+             <input type="radio" id="yes" name="checklist" value="yes">
 
-      </form>
+          
+             <label for="no">No</label>
+             <input type="radio" id="no" name="checklist" value="no">
 
+          
+             <label for="yes">Maybe</label>
+             <input type="radio" id="maybe" name="checklist" value="maybe">
+           </form>
+          
+        
+    
+         </div>
+               <div class="send">
+                <a link href="index.html">SEND</a>
+               </div>
+       </div>
 
-      <h2>Do you wish to become Samurai?</h2>
+       </div> 
+          <!--The is the footer, basically the bottom of the page. This area is mainly reserved for copywrite information-->       
+             <div id="footer">
+               <footer>©Lone Samurai.</footer>
+             </div>  
+     </div>
 
-      <form action="index.html" method="get">
-        <label for="yes">Yes</label>
-        <input type="checkbox">
-
-
-      </form>
-
-
-      <form action="index.html" method="get">
-        <label for="no">No</label>
-        <input type="checkbox">
-
-
-      </form>
-
-
-      
-      <form action="index.html" method="get">
-        <label for="maybe">Maybe</label>
-        <input type="checkbox">
-
-
-      </form>
-
-   </div>
-
-   <div id="send">
-    <a link href="index.html">SEND</a>
-   </div>
-
-   <div id="footer">
-    <footer>©Lone Samurai.</footer>
-   </div>
-
-
-  </container>
+     
+  
+    </container>
 
 
   </body>

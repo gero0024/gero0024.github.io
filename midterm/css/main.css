@@ -107,7 +107,7 @@ ul li{
 /*Here we are using padding to add space around and element. Padding is the space around the content following the box model*/
 
 #home{
-	padding: 10px 130px 10px 140px;
+	padding: 10px 150px 10px 140px;
 	border-right: solid black;
 	float: left;
 }
@@ -115,12 +115,12 @@ ul li{
 #story{
 	position: relative;
 	top: 10px;
-	left: 150px;
+	left: 130px;
 
 }
 
 #training{
-	padding: 10px 100px 10px 120px;
+	padding: 10px 120px 10px 120px;
 	border-left: solid black;
 	float: right;
 }

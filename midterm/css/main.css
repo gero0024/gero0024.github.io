@@ -107,7 +107,22 @@ ul li{
 /*Here we are using padding to add space around and element. Padding is the space around the content following the box model*/
 
 #home{
-	padding: 150px;
+	padding: 10px 130px 10px 140px;
+	border-right: solid black;
+	float: left;
+}
+
+#story{
+	position: relative;
+	top: 10px;
+	left: 150px;
+
+}
+
+#training{
+	padding: 10px 100px 10px 120px;
+	border-left: solid black;
+	float: right;
 }
 
 /*This code uses Margin, which is the space around an HTML element. Using Margin Auto 0, this centers the element, but it can only be done if the element has a width*/
@@ -139,6 +154,7 @@ body{
 .subtitles{
 	font-size: 23px;
 	background-color: #5e514e;
+	padding: 0px 0px 10px 0px;
 }
 
 
@@ -221,15 +237,6 @@ textarea{
 h2{
 	font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 /*==============================================
 ================================================

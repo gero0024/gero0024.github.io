@@ -83,6 +83,11 @@ nav{
 	text-align: center;
 }
 
+.topmenu :nth-child(1){
+	color: #222;
+	background: #c78c06;
+}
+
 .topmenu li{
 	padding: 25px;
 	color: #c78c06;
@@ -361,6 +366,10 @@ header .searchbar{
 	border:solid 2px #c78c06;
 }
 
+.line{
+	padding: 0px 15px 0px 15px;
+}
+
 
 /*==================================================================================================================================
 ============================================================CONTACT US==============================================================
@@ -374,7 +383,20 @@ header .searchbar{
 }
 
 .contactus{
-	padding: 15px;
+	padding: 10px;
+}
+
+.contactus h2{
+	font-size: 35px;
+	font-weight: 600;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.contactus h3{
+	font-size: 35px;
+	font-weight: 600;
 }
 
 /*-===================================================================================================================================
@@ -395,11 +417,15 @@ textarea{
 	resize: none;
 }
 
+.labeldiv{
+	padding: 20px 10px 20px 0px;
+}
+
 input{
 	padding: 5px 0px 5px 0px;
 }
 
-form :nth-child(7){
+.send{
 	color: #c78c06;
 	background: #222;
 	font-size: 20px;
@@ -407,29 +433,39 @@ form :nth-child(7){
 	padding: 5px 5px 5px 5px;
 }
 
-
-
-
-
-
-.contactus h2{
-	font-size: 35px;
-	font-weight: 600;
-	padding-top: 15px;
-	padding-bottom: 15px;
-
+/*-===================================================================================================================================
+   ========================================================HOURS OF OPERATION=========================================================*/
+table{
+	width: 100%;
+	
 }
 
-.contactus h3{
-	font-size: 35px;
-	font-weight: 600;
+table tr{
+	border: solid 2px #222;
 }
+
+table th{
+	border: solid 2px #222;
+	background: #ffe6ac;
+	padding: 15px;
+}
+
+table td{
+	border: #222 solid 2px;
+	padding: 15px;
+}
+
+
+
+
+
+
 
 
 /*-===================================================================================================================================
    ===================================================================LOCATION========================================================*/
 
-.mapembed{
+iframe{
 	width: 100%;
 }
 

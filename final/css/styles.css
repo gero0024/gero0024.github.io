@@ -57,9 +57,8 @@ table {
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-	float: left;
-	
 }
+
 
 
 
@@ -106,9 +105,20 @@ header .searchbar{
 #main-banner{
 	width: 100%;
 }
+	
+
+.openoffice{
+	position: relative;
+}
 
 .openoffice-content{
-	color: white;	
+	position: absolute;
+	top: 502px;
+	left: auto;
+	right: auto;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 15px;	
 }
 
 .openoffice-content p{
@@ -117,6 +127,15 @@ header .searchbar{
 
 .openoffice-content h1{
 	font-size: 10vw;
+}
+
+#connect{
+	font-size: 1.5em;
+	display: inline-block;
+	color: #222;
+	background-color: #c78c06;
+	padding: 25px 25px 0px 25px;
+	
 }
 
 

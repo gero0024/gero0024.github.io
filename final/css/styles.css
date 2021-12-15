@@ -270,7 +270,7 @@ header .searchbar{
 
 .ourvision img{
 	width: 100%;
-	height: auto;
+
 }
 
 
@@ -311,6 +311,55 @@ header .searchbar{
 	color: white;
 }
 
+
+/*==================================================================================================================================
+============================================================OUR TEAM================================================================
+===================================================================================================================================*/
+
+.john{
+	background-color: #ffe6ac; 
+	border-bottom: solid white 15px;
+}
+
+.bob{
+	background-color: #ffe6ac; 
+	border-bottom: solid white 15px;
+	
+}
+
+/*-===================================================================================================================================
+   ========================================================TOGETHER==================================================================*/
+
+.ourteam img{
+	width: 100%;
+}
+
+.ourteam h2{
+	font-size: 75px;
+	font-weight: 600;
+	padding: 35px 0px 35px 15px;	
+}
+
+.ourteam h3{
+	font-size: 35px;
+	font-weight: 600;
+	padding: 25px 0px 5px 15px;
+}
+
+
+
+.ourteam .words{
+	padding: 10px 0px 15px 15px;
+}
+
+.ourteam div p strong{
+	font-weight: bold;
+	padding: 10px 0px 0px 15px;
+}
+
+.ourteam hr{
+	border:solid 2px #c78c06;
+}
 
 
 

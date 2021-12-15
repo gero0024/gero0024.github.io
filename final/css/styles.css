@@ -226,6 +226,9 @@ header .searchbar{
 /*-===================================================================================================================================
    ========================================================TOGETHER==================================================================*/
 
+.ourservices{
+	padding: 15px;
+}
 
 .ourservices h2{
 	padding: 25px 15px 25px 5px;
@@ -240,7 +243,7 @@ header .searchbar{
 .ourservices h3{
 	font-size: 50px;
 	font-weight: 600;
-	padding: 50px 0px 50px 15px;
+	padding: 35px 0px 35px 15px;
 }
 
 .ourservices a{
@@ -260,6 +263,58 @@ header .searchbar{
 /*-===================================================================================================================================
    ========================================================OUR VISION=================================================================
    ===================================================================================================================================-*/
+
+.ourvision{
+	padding-top: 10px;
+}
+
+.ourvision img{
+	width: 100%;
+	height: auto;
+}
+
+
+.ourvision h2{
+	font-size: 50px;
+	font-weight: 600;
+	padding: 25px 0px 25px 15px;
+}
+
+.ourvision p{
+	padding: 15px;
+	line-height: 25px;
+}
+
+.ourvision a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	background-color: rgba(2, 2, 2, 0.75);
+	border: #c78c06 solid 2px;
+	padding: 35px 35px 35px 35px;
+}
+
+.ourvision .content div{
+	padding: 5px 15px 15px 15px;
+}
+
+.ourvision .content{
+	position: absolute;
+}
+
+.ourvision .content h2{
+	color: white;
+}
+
+.ourvision .content p{
+	color: white;
+}
+
+
+
+
+
 
 
 

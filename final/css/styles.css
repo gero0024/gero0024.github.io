@@ -387,6 +387,8 @@ header .searchbar{
 	padding: 10px;
 }
 
+
+
 .contactus h2{
 	font-size: 35px;
 	font-weight: 600;
@@ -444,6 +446,7 @@ input{
 .contactus .content .bottom{
 	position: relative;
 	bottom: 750px;
+	margin-bottom: -235px;
 }
 
 
@@ -489,7 +492,7 @@ iframe{
 #footer{
 	color: #c78c06;
 	background: #222;
-	padding: 35px 0px 10px 15px;
+	padding: 35px 0px 120px 15px;
 	line-height: 35px;
 }
 

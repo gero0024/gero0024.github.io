@@ -19,7 +19,7 @@
     
         nav{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             flex-direction: row;
             padding: none;
         }
@@ -40,9 +40,28 @@
     
         
         .topmenu :nth-child(1){
-           color: #c78c06;
-           background: none;
+           color: #222;
+           background: #c78c06;
        }
+
+       header{
+           position: relative;
+       }
+
+      
+       
+           
+       
+
+       .openoffice-content{
+           position: absolute;
+           z-index: 1;
+           width: auto;
+           max-height: auto;
+           resize: none;
+       }
+
+   
     
     /*=================================================================================================================================
     ==============================================================ABOUT US=============================================================
@@ -94,7 +113,7 @@
     
     .opencontent{
         width: 100%;
-        padding-bottom: 4000px;
+        padding-bottom: 20px;
         row-gap: 1em;
     }
 
@@ -255,10 +274,22 @@
         width: 50%;
     }
 
+
+    #location{
+        padding: 0px 0px 15px 0px;
+    }
+
     .contactus .content .right{
         position: relative;
         bottom: 25px;
         width: 50%;
     }
+
+
+
+        /*-=====================================================FOOTER=================================================================*/
+
+    
+ 
 
 }

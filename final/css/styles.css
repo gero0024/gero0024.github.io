@@ -278,6 +278,8 @@ header .searchbar{
    ===================================================================================================================================-*/
 
 .ourvision{
+	position: relative;
+	overflow: hidden;
 	padding-top: 10px;
 }
 
@@ -313,9 +315,9 @@ header .searchbar{
 }
 
 .ourvision .content{
-	position: relative;
+	position: absolute;
 	top: 100px;
-	margin-bottom: -350px;
+	height: auto;
 }
 
 .ourvision .content h2{

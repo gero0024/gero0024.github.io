@@ -13,6 +13,7 @@
     ==============================================================MEDIA QUERIES========================================================
     ===================================================================================================================================*/
         
+
         .container{
             max-width: 100%;
         }
@@ -44,24 +45,33 @@
            background: #c78c06;
        }
 
-       header{
+       #main-banner{
+           height: 700px;
+       }
+
+       .openoffice{
            position: relative;
        }
 
+       .wrapper{
+           margin: 10px;
+       }
       
-       
-           
-       
 
        .openoffice-content{
            position: absolute;
-           z-index: 1;
-           width: auto;
-           max-height: auto;
-           resize: none;
+           line-height: 125px;
+           top: 100px;
+           bottom: 100px;
+           margin: 0px 100px 0px 100px;
        }
 
-   
+       .openoffice-content h2{
+        font-size: 20vw;
+        line-height: 100px;
+       }
+
+
     
     /*=================================================================================================================================
     ==============================================================ABOUT US=============================================================
@@ -170,10 +180,14 @@
     
     .ourvision{
         display: block;
+        position: relative;
     }
     
     .ourvision .content{
-        color: aqua;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 50px;
     }
     
     .ourvision img{
@@ -212,6 +226,7 @@
 
     .johnimage{
         width: 50%;
+        border: none;
     }
 
     .johncontent{
@@ -289,7 +304,73 @@
 
         /*-=====================================================FOOTER=================================================================*/
 
+}
+
+
+@media screen and (max-width: 660px) {
+
+
+    #welcome23{
+        font-size: 7.5vw;
+        line-height: 50px;
+        color: aquamarine;
+       }
+
+       .openoffice-content p{
+        font-size: 10px;
+        line-height: 15px;
+        padding-bottom: 0px;
+    }
+
+    #connect{
+        font-size: 15px;
+        display: inline-block;
+        color: black;
+        background-color: #c78c06;
+        padding: 20px 20px 20px 20px;
+        
+    }
+
     
- 
+}
+
+
+
+@media screen and (min-width: 660px) and (max-width: 760px){
+
+    #welcome23{
+        font-size: 7.5vw;
+        line-height: 50px;
+        color: aquamarine;
+       }
+
+       
+      #connect{
+        font-size: 1em;
+        display: inline-block;
+        color: #222;
+        background-color: #c78c06;
+        padding: 15px 15px 15px 15px;
+        
+    }
+
+
+
+    .ourvision .content h2{
+        font-size: 10vw;
+       }
 
 }
+
+
+@media screen and (max-width: 1300px) and (min-width: 760px){
+
+    #welcome23{
+   
+        font-size: 5vw;
+         line-height: 10vw;
+           
+    }
+
+    
+}    

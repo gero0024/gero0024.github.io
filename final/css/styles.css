@@ -113,28 +113,36 @@ header .searchbar{
 #main-banner{
 	width: 100%;
 }
+
+.openoffice{
+	position: relative;
+
+}
 	
 
 .openoffice-content{
-
-	left: auto;
-	right: auto;
+	position: absolute;
 	color: white;
 	background-color: #02020299;
-	padding: 15px;	
-	transform: none;
-	resize: none;
+	padding: 15px;
+	line-height: 75px;
+	top: 35px;
+	bottom: 35px;
+	margin: 10px 0px 10px 0px;	
+
 }
+
+
+#welcome23{
+	font-weight: 600;
+}
+
 
 .openoffice-content p{
 	line-height: 25px;
 	padding-bottom: 10px;
 }
 
-.openoffice-content h1{
-	font-size: 100px;
-	font-weight: 600;
-}
 
 #connect{
 	font-size: 1.5em;
@@ -278,12 +286,13 @@ header .searchbar{
    ===================================================================================================================================-*/
 
 .ourvision{
-	position: relative;
 	overflow: hidden;
 	padding-top: 10px;
 }
 
 .ourvision img{
+	position: relative;
+	z-index: -1;
 	width: 100%;
 
 }
@@ -310,14 +319,14 @@ header .searchbar{
 	padding: 35px 35px 35px 35px;
 }
 
-.ourvision .content div{
-	padding: 5px 15px 15px 15px;
-}
 
 .ourvision .content{
 	position: absolute;
-	top: 100px;
-	height: auto;
+	size: 100%;
+}
+
+.ourvision .content div{
+	padding: 5px 15px 15px 15px;
 }
 
 .ourvision .content h2{

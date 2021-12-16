@@ -127,6 +127,10 @@
         row-gap: 1em;
     }
 
+    .ourservices a{
+        width: 80%;
+    }
+
  
     
 
@@ -313,11 +317,10 @@
     #welcome23{
         font-size: 7.5vw;
         line-height: 50px;
-        color: aquamarine;
        }
 
        .openoffice-content p{
-        font-size: 10px;
+        font-size: .75em;
         line-height: 15px;
         padding-bottom: 0px;
     }
@@ -341,7 +344,6 @@
     #welcome23{
         font-size: 7.5vw;
         line-height: 50px;
-        color: aquamarine;
        }
 
        
@@ -363,14 +365,15 @@
 }
 
 
-@media screen and (max-width: 1300px) and (min-width: 760px){
+@media screen and (max-width: 1920px) and (min-width: 760px){
 
     #welcome23{
    
         font-size: 5vw;
-         line-height: 10vw;
-           
+         line-height: 7.5vw;   
     }
 
     
 }    
+
+
